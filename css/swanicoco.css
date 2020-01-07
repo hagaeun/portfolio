@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0 auto;
+	list-style-type: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color: #333333;
+	font-family: "나눔바른고딕",나눔고딕,맑은고딕;
+}
+a{text-decoration:none;color:inherit;}
+#wrapper{}
+header{width:100%;height:110px;}
+.logo{width:11.578947%;height:auto;float:left;margin-top:1.052631%;margin-left:18.42105263%;}
+.logo>a>img{width:100%;height:auto;}
+nav{width:40%;height:auto;font-size:1.052631vw;float:left;margin-left:2.5%;}
+.main_menu>li{width:auto;float:left;margin-top:5.5%;margin-left:3.7%;margin-right:2.6%;transition:all 0.2s;}
+.main_menu>li:hover{color:#999;}
+.menu{width:9%;height:auto;margin-right:18.42105263%;margin-top:2.1052631%;float:right;}
+.menu_1>a>img{margin-right:7%;margin-left:7%;width:14.619883%;max-width:100%;height:auto;float:left;}
+.menu_2>a>img{margin-right:7%;margin-left:7%;width:11.11111111%;max-width:100%;height:auto;float:left;}
+.menu_3>a>img{margin-right:7%;margin-left:7%;width:12.86549707%;max-width:100%;height:auto;float:left;}
+
+.seller{width:62.10526327%;margin-left:18.42105263%;margin-right:18.42105263%;padding-bottom:7.8947368%;}
+
+#wrap{width:62.105263%;height:auto;padding-bottom:37.2205263%;}
+.md{width:47.457627%;float:left;padding-bottom:7.8947368%;}
+.title{float:left;width:100%;margin-bottom:1.052631%;}
+.title>p{text-align:center;font-family:"Myriad Pro", Calibri, Arial;font-size:40px;font-weight:600;}
+.review{width:47.457627%;float:right;padding-bottom:7.8947368%;}
+.title2{float:right;width:100%;margin-bottom:1.052631%;}
+.title2>p{text-align:center;font-family:"Myriad Pro", Calibri, Arial;font-size:40px;font-weight:600;}
+
+#wrap2{width:62.105263%;height:auto;padding-bottom:23.8889473%;margin-bottom:15.491525%;}
+.live{width:47.457627%;float:left;}
+.title3{float:left;width:100%;margin-bottom:1.052631%;}
+.title3>p{text-align:center;font-family:"Myriad Pro", Calibri, Arial;font-size:40px;font-weight:600;}
+.video>a>img{max-width:100%;height:auto;}
+.insta{width:47.457627%;float:right;}
+.title4{float:right;width:100%;margin-bottom:1.052631%;}
+.title4>p{text-align:center;font-family:"Myriad Pro", Calibri, Arial;font-size:40px;font-weight:600;}
+.instagram{max-width:100%;height:auto;text-align:center;}
+.instas{margin-bottom:1%;display:inline-block;height:auto;width:22%;}
+.instas1{margin-left:2.635391%;margin-right:1.3176955%;margin-bottom:1%;display:inline-block;height:auto;width:22%;}
+.instas2{margin-right:2.635391%;margin-left:1.3176955%;margin-bottom:1%;display:inline-block;height:auto;width:22%;}
+.instas>a>img{max-width:100%;height:auto;}
+.instas1>a>img{max-width:100%;height:auto;}
+.instas2>a>img{max-width:100%;height:auto;}
+
+footer{clear:both;width:100%;height:auto;}
+.last>img{max-width:100%;height:auto;}
+
+#wrap3{width:62.1052631%;height:24.4210526%;}
+.foot{width:25.423728%;height:auto;float:left;border-right:1px solid #ddd;margin-top:3%;}
+.foot2{width:40%;height:auto;float:left;border-right:1px solid #ddd;margin-top:3%;margin-left:2.5%;}
+.foot3{margin-top:1.8%;width:29%;height:auto;float:left;margin-left:2.5%;margin-top:3%;}
+
+.pt{font-family:'나눔스퀘어';font-size:18px;font-weight:bold;}
+.num{font-family:'나눔바른고딕';font-size:30px;font-weight:bold;}
+.time{font-family:'나눔스퀘어';font-size:14px;line-height:1.4;}
+.market{font-family:'나눔스퀘어';font-size:14px;line-height:1.5;}
+.market2{font-family:'나눔스퀘어';font-size:14px;line-height:1.5;}
+.money{font-family:'나눔스퀘어';font-size:14px;line-height:2;}
+
+@media(max-width:1280px){
+	header{height:74px;}
+	.title>p{font-size:26.8px;}
+	.title2>p{font-size:26.8px;}
+	.title3>p{font-size:26.8px;}
+	.title4>p{font-size:26.8px;}
+	.pt{font-size:12px;}
+	.num{font-size:20px;}
+	.time{font-size:9.4px;}
+	.market{font-size:9.4px;}
+	.market2{font-size:9.4px;}
+	.money{font-size:9.4px;}
+	}
+@media(max-width:1024px){
+	header{height:59px;}
+	.title>p{font-size:21.6px;}
+	.title2>p{font-size:21.6px;}
+	.title3>p{font-size:21.6px;}
+	.title4>p{font-size:21.6px;}
+	.pt{font-size:10.4px;}
+	.num{font-size:16px;}
+	.time{font-size:7.5px;}
+	.market{font-size:7.5px;}
+	.market2{font-size:7.5px;}
+	.money{font-size:7.5px;}
+	}
+	
+@media(max-width:768px){
+	header{height:44px;}
+	.title>p{font-size:16px;}
+	.title2>p{font-size:16px;}
+	.title3>p{font-size:16px;}
+	.title4>p{font-size:16px;}
+	.pt{font-size:7.3px;}
+	.num{font-size:12px;}
+	.time{font-size:5.6px;}
+	.market{font-size:5.6px;}
+	.market2{font-size:5.6px;}
+	.money{font-size:5.6px;}
+	}
+	
+@media(max-width:600px){
+	header{height:35px;}
+	.title>p{font-size:12.6px;}
+	.title2>p{font-size:12.6px;}
+	.title3>p{font-size:12.6px;}
+	.title4>p{font-size:12.6px;}
+	.pt{font-size:5.6px;}
+	.num{font-size:9.5px;}
+	.time{font-size:4.4px;}
+	.market{font-size:4.4px;}
+	.market2{font-size:4.4px;}
+	.money{font-size:4.4px;}
+	}
+	
+@media(max-width:480px){
+	header{height:28px;}
+	.title>p{font-size:10px;}
+	.title2>p{font-size:10px;}
+	.title3>p{font-size:10px;}
+	.title4>p{font-size:10px;}
+	.pt{font-size:4.5px;}
+	.num{font-size:7.5px;}
+	.time{font-size:3.5px;}
+	.market{font-size:3.5px;}
+	.market2{font-size:3.5px;}
+	.money{font-size:3.5px;}
+	}
+
+/*
+@media screen and (max-width: 700px) {
+}
+*/
