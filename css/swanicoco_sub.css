@@ -30,7 +30,7 @@ nav{width:40%;height:auto;font-size:1.052631vw;float:left;margin-left:2.5%;}
 .skincare>a>img{width:100%; height:auto;}
 
 /*현재 위치 가이드*/
-.guide{width:62.5%;height:auto;display:inline-block;margin-left:18.42105263%;margin-right:18.42105263%;font-size:0.6em;margin-top:1%;clear:both;}
+.guide{width:62.5%;height:auto;display:inline-block;margin-left:18.42105263%;margin-right:18.42105263%;font-size:15px;color:#999;margin-top:1%;clear:both;}
 .guide-box{float:right;display:inline;}
 
 /*에센스/앰플 타이틀*/
