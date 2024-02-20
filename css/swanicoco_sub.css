@@ -69,9 +69,9 @@ nav{width:40%;height:auto;font-size:1.052631vw;float:left;margin-left:2.5%;}
 /*가격 설명*/
 .text{border-bottom:1px solid #ddd;font-size:0.8em;padding-top:3%;padding-bottom:3%;}
 .price{line-height:1.7;margin-top:4%;}
-.sale_before{font-size:0.7em;}
-.price_orange{font-size:0.9em;color:#e8773f;font-weight:900;}
-.volume{font-size:0.7em;}
+.sale_before{font-size:10px;}
+.price_orange{font-size:15px;color:#e8773f;font-weight:900;}
+.volume{font-size:10px;}
 
 .img2{width:22%;height:auto;float:left;display:inline-block;margin-left:2%;margin-right:2%;}
 .img2>a>img{width:100%;height:auto;}
